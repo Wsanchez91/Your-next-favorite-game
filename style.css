@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  color: azure;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+.navbar {
+  margin-right: 50px;
+}
+
+.navbar a {
+  color: azure;
+  padding-right: 20px;
+}
+
+.navbar a:hover {
+  background-color: blueviolet;
+}
+
+body {
+  color: azure;
+  background-image: url(./assets/img/Firefly\ 20241221175656.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  background-color: black;
+  display: table;
+  flex-direction: column;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h2 {
+  margin-left: 50px;
+}
+
+footer a {
+  font-size: 30px;
+  color: azure;
+  text-align: center;
+  margin-right: 500px;
+}
