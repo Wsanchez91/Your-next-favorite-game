@@ -18,11 +18,11 @@
     </header>
     <section>
       <form action="" method="get" class="form-example">
-        <div class="form-exmaple">
-          <div>
+        <div class="form-example">
+          <div class="dropDown">
             <label for="system">System</label>
-            <input list="list" id="system" name="system" />
-            <datalist id="list">
+            <input list="consoleList" id="system" name="system" />
+            <datalist id="consoleList">
               <option value="PS5"></option>
               <option value="Xbox"></option>
               <option value="PC"></option>
@@ -30,8 +30,15 @@
           </div>
           <label for="game">Game</label>
           <input type="text" id="game" name="game" />
-          <label for="category">Category</label>
-          <input type="text" id="category" name="categoty" />
+          <div class="dropDown">
+            <label for="category">Category</label>
+            <input list="categoryList" id="category" name="category" />
+            <datalist id="categoryList">
+              <option value="FPS"></option>
+              <option value="RPG"></option>
+              <option value="Strategy"></option>
+            </datalist>
+          </div>
         </div>
         <div class="form-example">
           <input type="submit" value="Submit" />
@@ -39,7 +46,7 @@
       </form>
     </section>
     <footer>
-      <h2>Creators:</h2>
+      <h1>Creators:</h1>
       <address>
         <a href="#">William Sanchez</a>
         <a href="#">Wilson Sanchez</a>
